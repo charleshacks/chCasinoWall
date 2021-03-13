@@ -3,7 +3,7 @@ chCasinoWall enables the video walls inside the Diamond Casino & Resort, and add
 
 ## Requirements
 
-* Server build 2060 or greater. This resource has not been tested with, and is not guaranteed to work with, streamed casino interiors.
+* Game build 2060 or greater using `sv_enforceGameBuild 2060`. This resource has not been tested with, and is not guaranteed to work with, streamed casino interiors.
 * Some sort of teleport script that can fire events when the player enters and exits the casino.
 
 ## Configuration
