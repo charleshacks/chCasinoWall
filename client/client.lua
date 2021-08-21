@@ -7,6 +7,8 @@ local showBigWin            = false
 --
 
 function startCasinoThreads()
+    local interior = GetInteriorAtCoords(GetEntityCoords(GetPlayerPed(-1)))
+    while not IsInteriorReady(interior) do Citizen.Wait(10) end
     RequestStreamedTextureDict('Prop_Screen_Vinewood')
 
     while not HasStreamedTextureDictLoaded('Prop_Screen_Vinewood') do
